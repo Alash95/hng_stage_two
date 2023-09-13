@@ -54,7 +54,7 @@ public class ServiceImpl implements UserService {
 
     @Override
     public User createUser(UserRequestDto request) {
-        String onlyStringRegex = "(^[a-zA-Z]+$)";
+        String onlyStringRegex = "(^[a-zA-Z ]+$)";
         String onlyEmailRegex = "^[A-Za-z0-9+_.-]+@(.+)$";
         boolean isExist = userRepository.existsByEmail(request.getEmail());
 
