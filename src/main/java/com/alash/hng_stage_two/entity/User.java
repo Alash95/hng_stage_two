@@ -1,4 +1,4 @@
-package com.HngTaskTwo.HngTaskTwo.entity;
+package com.alash.hng_stage_two.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;

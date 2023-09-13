@@ -1,4 +1,4 @@
-package com.HngTaskTwo.HngTaskTwo.dto;
+package com.alash.hng_stage_two.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,7 +1,8 @@
-package com.HngTaskTwo.HngTaskTwo.service;
+package com.alash.hng_stage_two.service;
 
-import com.HngTaskTwo.HngTaskTwo.dto.UserRequestDto;
-import com.HngTaskTwo.HngTaskTwo.entity.User;
+
+import com.alash.hng_stage_two.dto.UserRequestDto;
+import com.alash.hng_stage_two.entity.User;
 
 public interface UserService {
     User createUser (UserRequestDto request);
